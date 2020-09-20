@@ -1,4 +1,4 @@
-var nilai = promt("Inputkan nilai akhir: ");
+var nilai = prompt("Inputkan nilai akhir: ");
 var grade = "";
 
 if(nilai > 90) grade ="A"
