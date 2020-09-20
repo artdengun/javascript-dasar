@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipa data dan variable </title>
+</head>
+<body>
+    <!-- 
+        Javascript adalah bahasa yang bersifat dynamic typing, artinya kita tidak harus menuliskan 
+        tipe data pada saat pembuatan variabel seperti pada bahasa C, C++, Java, dsb. 
+        yang bersifat static typing.
+
+        tipe data : 
+        String (teks)
+        Integer atau Number (bilangan bulat)
+        Float (bilangan Pecahan)
+        Boolean
+        Object
+
+        mengecek type data bisa menggunakan perintah typeof
+
+
+        Aturan Penulisan Nama Variabel di Javascript
+        - Penamaan variabel tidak boleh menggunakan angka di depannya.
+        - Penamaan variabel dianjurkan menggunakan camelCase apabila tediri dari dua suku kata.
+        - Penamaan variabel dianjurkan menggunakan bahasa inggris
+    -->
+
+    <script>
+        
+        // kita membuat variable tanpa mendefinisikan tipe variable berbentuk apa . 
+        var name = 'Deni Gunawan';
+        var visitorCount = 500322;
+        var isActive  = true;
+        var url = "https://denigunawan.com";
+
+        // menampilkan alert ke jendela dialog 
+        alert("Selamat datang di " + name);
+
+        // menampilkan variable ke html
+        document.write("Nama Situs        : " + name + "<br>")
+        document.write("Jumlah Pengunjung : " + visitorCount + "<br>")
+        document.write("Status Aktif      : " + isActive + "<br>")
+        document.write("Alamat URl        : " + url + "<br>")
+        
+
+    </script>
+    
+</body>
+</html>

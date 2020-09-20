@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara menampilkan Output</title>
+</head>
+<body>
+    <!-- 
+        Ada 4 cara menampilkan output pada Javascript:
+        1. Menggunakan Fungsi console.log() ;
+        2. Menggunakan Fungsi alert() ;
+        3. Menggunakan Fungsi document.write() ;
+        4. Menggunakan innerHTML .
+
+        Fungsi console.log() biasanya digunakan untuk debugging. Karena setiap pesaan error di Javascript selalu
+        ditampilkan di dalam Console.
+
+        Fungsi alert() adalah fungsi untuk menampilkan jendela dialog. Fungsi alert() , 
+        hanya bisa digunakan di dalam browser saja. 
+
+
+        Objek document adalah objek yang mewakili dokumen HTML di dalam Javascript.
+        Dalam objek document , terdapat fungsi write() untuk menulis sesuatu ke dokumen HTML
+
+        innerHTML adalah sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML.
+        Dengan innerHTML , kita dapat menampilkan output ke elemen yang lebih spesifik.
+
+    -->
+
+        <!-- ini menggunakan script alert-->
+    <script>
+        alert("Selamat Datang di arena javascript");
+
+        function sayHello(){
+            alert("hello deni"); 
+               }
+               
+    </script>
+    <button onclick="sayHello()">KLIK AKU DONG</button>
+
+    <!-- ini menggunakan document.write-->
+    <script>
+        document.write("<H1> Hello Wordl </h1>");
+        document.write("<hr>");
+    </script>
+    
+    <H2>Belajar inner HTML</H2>
+    <div id="hasil-output"></div>
+
+    <script>
+        // membuat objek element
+        var hasil = document.getElementById("hasil-output");
+        // menampilkan output ke elemen hasil
+        hasil.innerHTML = "<p> Aku sedang belajar javascript </p>";
+    </script>
+</body>
+</html>
