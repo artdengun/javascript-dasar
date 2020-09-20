@@ -11,3 +11,25 @@ Perulangan yang termasuk dalam Counted Loop:
 Perulangan yang termasuk dalam Uncounted Loop:
 1. Perulangan While
 2. Perulangan Do/While
+
+
+Perulangan while merupakan perulangan yang termasuk dalam perulangan uncounted loop.
+Perulangan while juga dapat menjadi perulangan yang counted loop dengan memberikan counter di dalamnya.
+
+
+Perulangan Do/While di Javascript
+
+Perulangan do/while akan melakukan perulangan sebanyak 1 kali terlebih dahulu, lalu mengecek kondisi yang ada
+di dalam kurung while .
+
+Perulangan Foreach di Javascript
+
+Perulangan foreach biasanya digunakan untuk mencetak item di dalam array.
+Perulangan ini termasuk dalam perulangan counted loop, karena jumlah perulangannya akan dituentukan oleh
+panjang dari array.
+
+
+Ada dua cara menggunakan perulangan foreach di Javascript:
+1. Menggunakan for dengan operator in ;
+2. Mengguunakan method forEach() .
+
